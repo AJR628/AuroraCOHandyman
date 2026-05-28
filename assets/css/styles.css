@@ -60,7 +60,7 @@ img { max-width: 100%; display: block; }
 header.site { padding: 22px 0; background: var(--cream); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; }
 header.site .container { display: flex; justify-content: space-between; align-items: center; }
 .brand { font-family: 'Roboto Slab', serif; font-weight: 800; font-size: 22px; color: var(--charcoal); display: flex; align-items: center; gap: 12px; }
-.brand-mark { width: 42px; height: 42px; border-radius: 50%; display: block; flex-shrink: 0; object-fit: cover; }
+.brand-mark { width: 80px; height: 80px; border-radius: 50%; display: block; flex-shrink: 0; object-fit: cover; }
 nav.primary { display: flex; gap: 32px; align-items: center; font-weight: 500; font-size: 15px; }
 nav.primary a { color: var(--charcoal); }
 nav.primary a:hover { color: var(--sienna); }
@@ -272,6 +272,7 @@ footer ul a:hover { color: var(--sienna); }
 @media (max-width: 880px) {
   nav.primary { display: none; }
   .mobile-menu-btn { display: block; }
+  .brand-mark { width: 60px; height: 60px; }
   .hero { padding: 48px 0 64px; }
   .hero-grid, .service-row, .service-row.reverse, .area-grid, .page-hero-grid, .two-col, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .service-row { margin-bottom: 56px; }
