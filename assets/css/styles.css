@@ -260,6 +260,7 @@ section.block.alt { background: var(--cream-light); border-top: 1px solid var(--
 footer { background: var(--charcoal); color: var(--cream); padding: 64px 0 28px; font-size: 14px; }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
 .footer-brand p { color: rgba(247, 242, 232, 0.7); margin: 16px 0; max-width: 320px; line-height: 1.6; }
+.footer-logo { width: 180px; height: 180px; border-radius: 50%; display: block; margin-bottom: 12px; }
 footer h4 { color: var(--cream); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 18px; font-family: 'DM Sans', sans-serif; font-weight: 600; }
 footer ul { list-style: none; padding: 0; margin: 0; }
 footer ul li { margin-bottom: 10px; }
