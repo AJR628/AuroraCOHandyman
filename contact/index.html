@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=20260827">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KVSY13L0X"></script>
@@ -93,22 +93,22 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" autocomplete="name" required>
               </div>
               <div class="form-group">
                 <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" required>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" required>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
+              <label for="email">Email <span class="optional">(optional)</span></label>
+              <input type="email" id="email" name="email" autocomplete="email">
             </div>
 
             <div class="form-group">
               <label for="service">Service Needed</label>
-              <select id="service" name="service">
+              <select id="service" name="service" required>
                 <option value="">Choose a service...</option>
                 <option value="drywall">Drywall Repair</option>
                 <option value="ceiling">Ceiling Repair</option>
@@ -133,6 +133,7 @@
 
             <div class="form-group" style="margin-bottom: 0;">
               <button type="submit" class="btn btn-primary">Send Quote Request</button>
+              <p class="form-note">We’ll use your details only to respond to this quote request.</p>
             </div>
           </form>
         </div>
@@ -213,5 +214,6 @@
     </div>
   </footer>
 
+  <script src="/assets/js/analytics-v1.js"></script>
 </body>
 </html>
