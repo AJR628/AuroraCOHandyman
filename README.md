@@ -16,7 +16,7 @@ Static website for AuroraCOHandyman.com. Local Aurora, Colorado handyman service
 - `service-area/` — Aurora neighborhoods served
 - `contact/` — Contact form
 - `thank-you/` — Form submission landing page
-- `drywall-repair/`, `deck-repair/`, `fence-repair/`, `interior-painting/`, `gutter-cleaning/`, `door-repair/` — Service detail pages
+- `drywall-repair/`, `ceiling-repair/`, `deck-repair/`, `fence-repair/`, `interior-painting/`, `gutter-cleaning/`, `door-repair/` — Service detail pages
 - `assets/css/styles.css` — Shared design system
 - `assets/img/` — Site imagery
 - `robots.txt`, `sitemap.xml`, `netlify.toml` — Config
