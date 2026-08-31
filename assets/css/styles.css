@@ -295,3 +295,45 @@ footer ul a:hover { color: var(--sienna); }
   .hero-ctas .btn, .cta-actions .btn { width: 100%; justify-content: center; }
   .topbar .container { justify-content: center; text-align: center; }
 }
+
+.optional {
+  color: var(--ink-mid);
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.form-note {
+  margin: 10px 0 0;
+  color: var(--ink-mid);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+/* Mobile conversion action */
+.mobile-quote-bar {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  body.has-mobile-quote-bar {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-quote-bar {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: rgba(31, 27, 22, 0.97);
+    border-top: 1px solid rgba(247, 242, 232, 0.2);
+    box-shadow: 0 -8px 24px rgba(31, 27, 22, 0.18);
+  }
+
+  .mobile-quote-bar .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+}
